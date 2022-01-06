@@ -44,7 +44,8 @@ hr{
 .intro-text{
   padding-right: 50px;
   padding-left: 100px;
-  font-size: 15px;
+  font-size: 35px;
+  text-align: center;
   color:black solid;
 }
 
