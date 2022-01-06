@@ -4,6 +4,12 @@
     font-weight: 900;
 } */
 
+/* .nav-item{
+    font-size: 25px;
+    font-style: oblique;
+    font-weight: 900;
+} */
+
 
 .logo {
     width: 800px;
@@ -81,6 +87,27 @@ h5 {
 section {
   padding: 10px;
 }
+
+
+/* Showcase Text Styling */
+.showcase:link {
+  text-decoration: none;
+  color: rgb(46, 46, 46);
+}
+.showcase:visited {
+  text-decoration: none;
+  color: rgb(46, 46, 46);
+}
+.showcase:hover {
+  text-decoration: none;
+  color: rgb(69, 136, 212);
+}
+.showcase:active {
+  text-decoration: none;
+  color: rgb(46, 46, 46);
+}
+
+
 
 .footer{
   background-color: rgb(0, 0, 0);
