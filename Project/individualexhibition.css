@@ -1,7 +1,7 @@
 
 body {
   text-align: center;
-  background-color: rgba(196,188,179,1);
+  /* background-color: rgba(196,188,179,1); */
   color: black;
   font-family: 'Montserrat', sans-serif;
   font-weight: bold;font-size: 12px    
@@ -39,13 +39,13 @@ h3 {
   padding-right: 30px;
 }
 
-
+/* 
   .navbar a {
     font-size: 16px;
     color: white;
     text-transform: uppercase;
     letter-spacing: 4px; 
-  }
+  } */
 
 .img{
   
@@ -62,16 +62,22 @@ h3 {
   
 }
 
+#slider {
+  position: relative;
+   width: 640px;
+   height: 500px;
+} 
+
 #slider figure {
   position: relative;
   width: 300%;
   margin: 0;
   left: 0;
-  animation: 7s slider infinite;
+  animation: 30s slider infinite;
 }
 
 #slider figure img {
-  position: static;
+  /* position: static; */
   margin-left: 200px;
   margin-right: 200px;
   width: 10%;
