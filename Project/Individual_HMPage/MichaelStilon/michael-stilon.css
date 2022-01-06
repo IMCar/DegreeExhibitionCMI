@@ -1,0 +1,81 @@
+
+h1 {
+    
+    /* font-family: 'Source Sans Pro', sans-serif; */
+    font-family: 'Nunito Sans'; 
+    font-size: 100px;
+    padding: 50px 0 50px;
+    margin: 50px 0 50px;
+    
+}
+
+.description {
+
+    font-family: 'Source Sans Pro', sans-serif;
+    text-align: center;
+    font-size: 30px  ;
+    padding: 50px 50px 50px 50px;
+    margin: 50px;
+}
+
+.btn {
+    font-size: 50px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-color: lightgrey;
+    color: black;
+}
+
+
+.btn:hover {
+    color: white;
+    background-color: orangered;
+}
+
+.orange-logo {
+    color: orangered;
+    padding-left: 20px ;
+    font-size: 50px
+}
+
+
+
+#showcases:link {
+    text-decoration: none;
+    color: rgb(46, 46, 46);
+}
+#showcases:visited {
+    text-decoration: none;
+    color: rgb(46, 46, 46);
+}
+#showcases:hover {
+    text-decoration: none;
+    color: orangered;
+}
+#showcases:active {
+    text-decoration: none;
+    color: rgb(46, 46, 46);
+}
+
+
+
+
+.laugh {
+    color: black;
+}
+
+section {
+    padding: 10px;
+}
+
+
+h4 {
+    font-size: 18px;
+    font-family: 'Source Sans Pro', sans-serif;
+    color: grey;
+}
+
+h5 {
+    font-size: 25px;
+    font-family: 'Source Sans Pro', sans-serif;
+}
