@@ -1,23 +1,13 @@
-/* @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
-
-@import url('https://fonts.googleapis.com/css2?family=Arimo:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&display=swap'); */
-
-
-* {
+/* * {
     margin: 0;
     box-sizing: border-box;
-  }
+  } */
   
-  /* body {
-    background-color: #6a9ac4;
-  }
-   */
   #contact {
-    background-color: #f3d2b7;
     display: flex;
     justify-content: center;
     align-items: center;
-    
+       
   }
   
   .contact-box {
@@ -28,44 +18,44 @@
     
   }
   
-  .contact-links, .contact-form-wrapper {
+  .contact-info, .contact-form-wrapper {
     width: 50%;
     padding: 8% 5% 10% 5%;
   }
   
   
-  .contact-links {
-    background-color: #1f2e43;
+  .contact-info {
+    background-color: #7a5506;
     background:
       radial-gradient(
-        circle at 55% 82%, #426691 0 12%, transparent 12.2%
+        circle at 55% 82%, #f5d41c34 0 12%, transparent 12.2%
       ), 
       radial-gradient(
-        circle at 94% 72%, #426691 0 10%, transparent 10.2%
+        circle at 94% 72%, #caa02b7c 0 10%, transparent 10.2%
       ), 
       radial-gradient(
-        circle at 20% max(78%, 350px), #263a53 0 7%, transparent 7.2%
+        circle at 20% max(78%, 350px), #e26c0c8f 0 7%, transparent 7.2%
       ), 
       radial-gradient(
-        circle at 0% 0%, #263a53 0 40%, transparent 40.2%
+        circle at 0% 0%, #ce9d1691 0 40%, transparent 40.2%
       ), 
-      #1f2e43;
+      #cea457b6;
     border-radius: 10px 0 0 10px;
   }
   
   .contact-form-wrapper {
-    background-color: #ffffff8f;
+    background-color: #b46d03a6;
     border-radius: 0 10px 10px 0;
   }
   
   @media only screen and (max-width: 800px) {
-    .contact-links, .contact-form-wrapper {
+    .contact-info, .contact-form-wrapper {
       width: 100%;
     }
-    
-    /* .contact-links {
+  
+    .contact-info {
       border-radius: 10px 10px 0 0;
-    } */
+    }
     
     .contact-form-wrapper {
       border-radius: 0 0 10px 10px;
@@ -88,24 +78,10 @@
     transform: scale(.95, 1);
   }
   
-  .links {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    padding-top: 50px;
-  }
-  
-  .link {
-    margin: 10px;
-    cursor: pointer;
-  }
   
   .navbar-image {
-    /* width: 45px;
-    height: 45px; */
     filter: 
-      /* hue-rotate(0deg) */
-      drop-shadow(14px 16px 16px rgba(2, 94, 233, 0.4));
+    drop-shadow(14px 16px 16px rgba(2, 94, 233, 0.4));
     transition: 0.2s;
     user-select: none;
   }
@@ -117,9 +93,7 @@
   .navbar-image:active {
     transform: scale(1.1, 1.1);
     filter: 
-      /* hue-rotate(220deg) */
-      drop-shadow(14px 16px 16px rgb(10, 10, 10))
-      /* sepia(0.3); */
+    drop-shadow(14px 16px 16px rgb(10, 10, 10))
   }
 
   
@@ -201,12 +175,4 @@
       font-size: clamp(30px, 12vw, 60px);
     }
     
-    .links {
-      padding-top: 30px;
-    }
-    
-    img {
-      width: 38px;
-      height: 38px;
-    }
   }
