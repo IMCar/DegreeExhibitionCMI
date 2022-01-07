@@ -3,8 +3,8 @@ body {
   text-align: center;
   /* background-color: rgba(196,188,179,1); */
   color: black;
-  font-family: 'Montserrat', sans-serif;
-  font-weight: bold;font-size: 12px    
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 20px;
   
 }
 
@@ -18,14 +18,14 @@ a{
 .title {
   border-right: 30px;
   padding-right: 60px;
-  font-family: 'DM Serif Text', serif;
+  font-family: 'Source Sans Pro', sans-serif;
   font-size: 30px 
 }
 
 h3 {
   border-right: 30px;
   padding-right: 60px;
-  font-family: 'DM Serif Text', serif;
+  font-family: 'Source Sans Pro', sans-serif;
   font-size: 22px   
 }
 

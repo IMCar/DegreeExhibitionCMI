@@ -124,10 +124,11 @@
   
   .form-item {
     position: relative;
+    font-family: 'Source Sans Pro', sans-serif;
   }
   
   label, input, textarea {
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Source Sans Pro', sans-serif;
   }
   
   label {
@@ -148,6 +149,7 @@
     margin-bottom: 20px;
     padding: 12px;
     font-size: clamp(15px, 1.5vw, 18px);
+    font-family: 'Source Sans Pro', sans-serif;
   }
   
   input:focus+label, 
@@ -164,7 +166,7 @@
     background-color: #fd917e;
     filter: drop-shadow(2px 2px 3px #0003);
     color: #fff;
-    font-family: "Poppins",sans-serif;
+    font-family: 'Source Sans Pro', sans-serif;
     font-size: clamp(16px, 1.6vw, 18px);
     display: block;
     padding: 12px 20px;
@@ -185,6 +187,8 @@
     filter: sepia(0.5);
   }
   
+
+
   @media only screen and (max-width: 800px) {
     h2 {
       font-size: clamp(40px, 10vw, 60px);
