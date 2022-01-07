@@ -1,15 +1,11 @@
 /* source: https://codepen.io/lina994/pen/zYdbwBP */
 
-/* * {
-    margin: 0;
-    box-sizing: border-box;
-  } */
   
   #contact {
     display: flex;
     justify-content: center;
     align-items: center;
-       
+    padding-bottom: 200px;   
   }
   
   .contact-box {
@@ -17,6 +13,7 @@
     margin: 80px 50px;
     display: flex;
     flex-wrap: wrap;
+   
     
   }
   
