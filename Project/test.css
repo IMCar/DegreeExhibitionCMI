@@ -1,22 +1,6 @@
-/* .nav-item{
-    font-size: 25px;
-    font-style: oblique;
-    font-weight: 900;
-} */
-
-/* .nav-item{
-    font-size: 25px;
-    font-style: oblique;
-    font-weight: 900;
-} */
-
-
 .navbar-image {
-  /* width: 45px;
-  height: 45px; */
   filter: 
-    /* hue-rotate(0deg) */
-    drop-shadow(14px 16px 16px rgba(2, 94, 233, 0.4));
+  drop-shadow(14px 16px 16px rgba(2, 94, 233, 0.4));
   transition: 0.2s;
   user-select: none;
 }
@@ -28,9 +12,8 @@
 .navbar-image:active {
   transform: scale(1.1, 1.1);
   filter: 
-    /* hue-rotate(220deg) */
-    drop-shadow(14px 16px 16px rgb(10, 10, 10))
-    /* sepia(0.3); */
+  drop-shadow(14px 16px 16px rgb(10, 10, 10))
+
 }
 
 .logo {
@@ -44,22 +27,11 @@
 }
 
 
-/* .art1 {
-  width: 900px;
-  height: 800px;
-  padding-right: 10px;
-  padding-left: 10px;
-  padding-top: 10px;
-  padding-bottom: 10px;
-  
-} */
-
 .title{
     font-family:monospace;
     font-size: 80pt;
     padding-left: 50px;
     text-align: end;
-
 
 }
 
