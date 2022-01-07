@@ -81,24 +81,6 @@
   }
   
   
-  /* .navbar-image {
-    filter: 
-    drop-shadow(14px 16px 16px rgba(2, 94, 233, 0.4));
-    transition: 0.2s;
-    user-select: none;
-  }
-  
-  .navbar-image:hover {
-    transform: scale(1.1, 1.1);
-  }
-  
-  .navbar-image:active {
-    transform: scale(1.1, 1.1);
-    filter: 
-    drop-shadow(14px 16px 16px rgb(10, 10, 10))
-  } */
-
-  
   .form-item {
     position: relative;
     font-family: 'Source Sans Pro', sans-serif;
