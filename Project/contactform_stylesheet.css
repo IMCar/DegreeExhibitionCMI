@@ -27,26 +27,26 @@
   
   
   .contact-info {
-    background-color: #7a5506;
+    background-color: #1a78b6;
     background:
       radial-gradient(
-        circle at 55% 82%, #f5d41c34 0 12%, transparent 12.2%
+        circle at 55% 82%, hsl(204, 54%, 29%) 0 12%, transparent 12.2%
       ), 
       radial-gradient(
-        circle at 94% 72%, #caa02b7c 0 10%, transparent 10.2%
+        circle at 94% 72%, #6ec1f8 0 10%, transparent 10.2%
       ), 
       radial-gradient(
-        circle at 20% max(78%, 350px), #e26c0c8f 0 7%, transparent 7.2%
+        circle at 20% max(78%, 350px), #8fcef3 7%, transparent 7.2%
       ), 
       radial-gradient(
-        circle at 0% 0%, #ce9d1691 0 40%, transparent 40.2%
+        circle at 0% 0%, #2c6f9c 0 40%, transparent 40.2%
       ), 
-      #cea457b6;
+      #0374c0;
     border-radius: 10px 0 0 10px;
   }
   
   .contact-form-wrapper {
-    background-color: #b46d03a6;
+    background-color: #04395c;
     border-radius: 0 10px 10px 0;
   }
   
@@ -122,7 +122,7 @@
   }
   
   .submit-btn {
-    background-color: #fd917e;
+    background-color: #57a8dd;
     filter: drop-shadow(2px 2px 3px #0003);
     color: #fff;
     font-family: 'Source Sans Pro', sans-serif;
