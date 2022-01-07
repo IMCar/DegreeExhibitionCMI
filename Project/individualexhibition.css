@@ -1,11 +1,32 @@
 
 body {
   text-align: center;
-  /* background-color: rgba(196,188,179,1); */
   color: black;
   font-family: 'Source Sans Pro', sans-serif;
   font-size: 20px;
   
+}
+
+.navbar-image {
+  /* width: 45px;
+  height: 45px; */
+  filter: 
+    /* hue-rotate(0deg) */
+    drop-shadow(14px 16px 16px rgba(2, 94, 233, 0.4));
+  transition: 0.2s;
+  user-select: none;
+}
+
+.navbar-image:hover {
+  transform: scale(1.1, 1.1);
+}
+
+.navbar-image:active {
+  transform: scale(1.1, 1.1);
+  filter: 
+    /* hue-rotate(220deg) */
+    drop-shadow(14px 16px 16px rgb(10, 10, 10))
+    /* sepia(0.3); */
 }
 
 a{
@@ -39,13 +60,6 @@ h3 {
   padding-right: 30px;
 }
 
-/* 
-  .navbar a {
-    font-size: 16px;
-    color: white;
-    text-transform: uppercase;
-    letter-spacing: 4px; 
-  } */
 
 .img{
   
@@ -57,9 +71,6 @@ h3 {
  position: fixed;
   width: 640px;
   height: 200px;
-
-  
-  
 }
 
 #slider {
