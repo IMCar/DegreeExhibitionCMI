@@ -1,1 +1,1 @@
-window.location.href = 'testhmp2.html';
+window.location.href = 'index.html';
